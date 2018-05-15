@@ -1,0 +1,16 @@
+[user]
+	email = david.flemstrom@gmail.com
+        name = David Flemström
+[push]
+        default = simple
+[core]
+        excludesfile = /home/dflemstr/.gitignore-global
+
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+[github]
+	user = dflemstr
+[author]
+	email = david.flemstrom@gmail.com
