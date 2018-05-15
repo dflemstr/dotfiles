@@ -14,3 +14,7 @@
 	user = dflemstr
 [author]
 	email = david.flemstrom@gmail.com
+[includeIf "gitdir:~/src/ghe.spotify.net/"]
+	path = .gitconfig-spotify
+[includeIf "gitdir:~/src/github.com/spotify/"]
+	path = .gitconfig-spotify

@@ -3,6 +3,7 @@
 - link:
     ~/.profile: profile
     ~/.gitconfig: gitconfig
+    ~/.gitconfig-spotify: gitconfig-spotify
     ~/.zshrc: zshrc
     ~/.ssh/config: ssh-config
 
