@@ -2,6 +2,3 @@ ControlMaster auto
 ControlPath /tmp/ssh-mux-%h-%p-%r
 ControlPersist 4h
 
-Host *
-    PermitLocalCommand yes
-    LocalCommand ssh -o PermitLocalCommand=no %n "which git >/dev/null && ([[ -d ~/.dotfiles ]] && (echo "Updating dotfiles on %h ..." && cd ~/.dotfiles && git pull -q && ./install >/dev/null) || (echo "Installing dotfiles on %h ..." && git clone -q --recursive https://github.com/dflemstr/dotfiles .dotfiles && ./.dotfiles/install >/dev/null))"
