@@ -2,3 +2,6 @@ ControlMaster auto
 ControlPath /tmp/ssh-mux-%h-%p-%r
 ControlPersist 4h
 
+Host aur.archlinux.org
+  IdentityFile ~/.ssh/aur
+  User aur
