@@ -11,7 +11,7 @@ antigen bundle sindresorhus/pure
 
 antigen apply
 
-export PATH="$HOME/.yarn/bin:$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/bin:$HOME/.yarn/bin:$HOME/.cargo/bin:$PATH"
 export HELIOS_TESTING_PROFILE=local
 export ALTERNATE_EDITOR=""
 export EDITOR=emacsclient
