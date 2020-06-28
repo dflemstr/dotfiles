@@ -1,3 +1,1 @@
-emulate sh
-. ~/.profile
-emulate zsh
+[[ -e ~/.profile ]] && emulate sh -c 'source ~/.profile'
