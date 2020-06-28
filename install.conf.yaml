@@ -5,6 +5,7 @@
     ~/.gitconfig: gitconfig
     ~/.gitconfig-spotify: gitconfig-spotify
     ~/.gitignore-global: gitignore-global
+    ~/.zprofile: zprofile
     ~/.zshrc: zshrc
     ~/.ssh/config: ssh-config
 
