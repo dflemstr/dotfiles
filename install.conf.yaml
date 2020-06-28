@@ -1,5 +1,9 @@
 - clean: ['~']
 
+- create:
+  - ~/src/github.com/dflemstr
+  - ~/src/ghe.spotify.net/dflemstr
+
 - link:
     ~/.gitconfig: gitconfig
     ~/.gitconfig-spotify: gitconfig-spotify
