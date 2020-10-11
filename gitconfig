@@ -18,3 +18,5 @@
 	path = .gitconfig-spotify
 [includeIf "gitdir:~/src/github.com/spotify/"]
 	path = .gitconfig-spotify
+[pull]
+	rebase = true

@@ -12,3 +12,8 @@
     ~/.zshrc: zshrc
     ~/.ssh/config: ssh-config
 
+- cargo:
+  - amethyst_tools
+  - bindgen
+  - bobbin-cli
+  - c2rust

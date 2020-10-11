@@ -5,3 +5,5 @@ export EDITOR=emacsclient
 export GOPATH="$HOME"
 export CARGO_TARGET_DIR="$HOME/.cache/cargo/target"
 export GITHUB_TOKEN="$(cat ~/secrets/ghe-token)"
+export GITHUB_ENTERPRISE_TOKEN="$(cat ~/secrets/ghe-token)"
+export WASI_SYSROOT=/opt/wasi-sdk/wasi-sysroot
